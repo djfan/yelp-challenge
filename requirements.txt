@@ -1,0 +1,3 @@
+# Python 2.7 compatibility
+# pandas==0.19.1
+# cPickle==1.71
