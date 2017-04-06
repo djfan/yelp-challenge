@@ -7,6 +7,9 @@ Machine Learning For City: Yelp Data Analysis
 .
 ├── LICENSE
 ├── README.md
+├── data_all_cities
+│   ├── README.md
+│   └── all_cities_preprocess.ipynb
 ├── data_processeing
 │   ├── 1.1-Yelp_business_category_table.ipynb
 │   └── README.md
@@ -27,5 +30,4 @@ Machine Learning For City: Yelp Data Analysis
 ├── descriptive_stats
 │   └── descriptive_statistics.ipynb
 └── requirements.txt
-
 ```
