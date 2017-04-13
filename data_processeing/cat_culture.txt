@@ -1,0 +1,107 @@
+Cantonese
+Szechuan
+Pan Asian
+Shanghainese
+Hainan
+Chinese
+Taiwanese
+Dim Sum
+Hot Pot
+Hong Kong Style Cafe
+Asian Fusion
+Japanese
+Sushi Bars
+Tonkatsu
+Udon
+Ramen
+Japanese Curry
+Salvadoran
+Slovakian
+Czech
+Czech/Slovakian
+Spanish
+Tapas/Small Plates
+Tapas Bars
+Arabian
+Canadian (New)
+Belgian
+Bulgarian
+French
+Armenian
+Haitian
+Dominican
+Filipino
+Thai
+Italian
+Hakka
+Mediterranean
+Moroccan
+Puerto Rican
+Halal
+Scottish
+Senegalese
+Austrian
+Caribbean
+American (New)
+Palatine
+International
+Indonesian
+Hawaiian
+Iberian
+Argentine
+Persian/Iranian
+Cuban
+Cajun/Creole
+Minho
+Eastern European
+Uzbek
+Scandinavian
+Greek
+Burmese
+African
+Singaporean
+Bavarian
+Ethiopian
+Alsatian
+Turkish
+Middle Eastern
+Bangladeshi
+Indian
+Latin American
+Brazilian
+Korean
+Pakistani
+Hungarian
+Swabian
+Southern
+Russian
+Afghan
+Serbo Croatian
+Malaysian
+Ukrainian
+Modern European
+Irish
+German
+American (Traditional)
+Laotian
+Mongolian
+Basque
+Vietnamese
+Australian
+Venezuelan
+Colombian
+Egyptian
+Trinidadian
+Himalayan/Nepalese
+Tuscan
+Lebanese
+British
+Portuguese
+Swiss Food
+South African
+Mexican
+Peruvian
+Baden
+Sri Lankan
+Cambodian
+Nicaraguan

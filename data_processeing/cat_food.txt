@@ -1,0 +1,105 @@
+Food
+Restaurants
+Cafeteria
+Cafes
+Bed & Breakfast
+Breakfast & Brunch
+Diners
+Dinner Theater
+Rotisserie Chicken
+Tapas/Small Plates
+Tapas Bars
+Fondue
+Buffets
+Gluten-Free
+Curry Sausage
+Swiss Food
+Creperies
+Soba
+Sushi Bars
+Tonkatsu
+Udon
+Ramen
+Japanese Curry
+Tea Rooms
+Dim Sum
+Hot Pot
+Salad
+Gelato
+Imported Food
+Steakhouses
+Desserts
+Falafel
+Noodles
+Chicken Wings
+Beer
+Themed Cafes
+Coffee & Tea
+Cheesesteaks
+Supper Clubs
+Fish & Chips
+Izakaya
+Burgers
+Teppanyaki
+Ice Cream & Frozen Yogurt
+Kebab
+Acai Bowls
+Live/Raw Food
+Barbeque
+Empanadas
+Brasseries
+Vegan
+Tacos
+New Mexican Cuisine
+Bakeries
+Flatbread
+Vegetarian
+Kosher
+Pop-Up Restaurants
+Pita
+Hong Kong Style Cafe
+Fruits & Veggies
+Bagels
+Champagne Bars
+Waffles
+Fast Food
+Food Court
+Cideries
+Tempura
+Pizza
+Seafood
+Tex-Mex
+Soup
+Cabaret
+Sandwiches
+Delicatessen
+Comfort Food
+Specialty Food
+Ethnic Food
+Soul Food
+Pub Food
+Irish Pub
+Island Pub
+Sports Clubs
+Country Clubs
+Sports Bars
+Whiskey Bars
+Wine Bars
+Beer Garden
+Beer Gardens
+Beer Hall
+Gay Bars
+Beer Bar
+Hotel bar
+Tiki Bars
+Cocktail Bars
+Dive Bars
+Beach Bars
+Speakeasies
+Bistros
+Pubs
+Bars
+Bar Crawl
+Lounges
+Internet Cafes
+Food Delivery Services
