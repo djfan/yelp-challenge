@@ -21,6 +21,8 @@
 *problems*: 
 
 1. Naive Bayes function in `sklearn` provide `bernouliNB` and `multinomialNB` for categorical data. However, difficult to deal with **NA data**.
-2. naiveBayes in `e1701` is quite helpful to do with NA data by set `na_action`. However, it seems to treat all as Gaussian Distribution. I set `as.factor` for all variables, and not figure out for now which distribution it applied. 
-3. In a word,  naive bayes is not suitable for this data set, because NA problem and not independent between attributes.
+2. naiveBayes in `e1701` is quite helpful to do with NA data by set `na_action`. However, it seems to treat all as Gaussian Distribution. I set `as.factor` for all variables, and not figure out for now which distribution it applied. I think, the distribution for factor varibles is Multinomial.
+3. In a word,  naive bayes is not suitable for this data set, because NA problem and not independent between attributes. Most importantly, naive bayes is not a good method to find important features.
+4. Next: *Bayes Network*
+
 
