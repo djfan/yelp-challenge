@@ -1,0 +1,81 @@
+---
+title: "naive bayes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+df_att_all= read.csv('~/Documents/Spring2017/CUSP_5006_ML4C/Test/df_att_all.csv', stringsAsFactors = TRUE) #All-Factor
+summary(df_att_all)
+df_att_all$cuisine_Chinese = factor(df_att_all$cuisine_Chinese)
+df_att_all$HairSpecializesIn_kids = factor(df_att_all$HairSpecializesIn_kids)
+
+```
+
+```{r}
+smp_size <- floor(0.75 * nrow(df_att_all))
+set.seed(826)
+train_ind <- sample(nrow(df_att_all), size = smp_size)
+train <- df_att_all[train_ind, ]
+test <- df_att_all[-train_ind, ]
+
+```
+
+## na.cation = na.pass or na.omit
+```{r}
+library(e1071)
+mod_a = naiveBayes(cuisine_Chinese ~., data = train, 
+                   laplace = 1, type = 'class',
+                   na.action = na.pass)
+pred_a = predict(mod_a, test[,1:length(test)-1])
+table(pred_a, test$cuisine_Chinese)
+
+mod_b = naiveBayes(cuisine_Chinese ~., data = train, 
+                   laplace = 1, type = 'class',
+                   na.action = na.omit)
+pred_b = predict(mod_b, test[,1:length(test)-1])
+table(pred_b, test$cuisine_Chinese)
+```
+
+```{r}
+library(caret) 
+conf_actual = factor(test$cuisine_Chinese, levels = c(2,1), labels = c('chinese', 'non-chinese'))
+conf_pred_a = factor(pred_a, levels = c(2,1), labels = c('chinese', 'non-chinese'))
+conf <- confusionMatrix(table(conf_pred_a, conf_actual))
+print(conf)
+
+print(conf$overall['Accuracy'])
+print(conf$byClass['Precision'])
+print(conf$byClass['Recall'])
+
+```
+
+```{r}
+conf_actual = factor(test$cuisine_Chinese, levels = c(2,1), labels = c('chinese', 'non-chinese'))
+conf_pred_b = factor(pred_b, levels = c(2,1), labels = c('chinese', 'non-chinese'))
+conf <- confusionMatrix(table(conf_pred_b, conf_actual))
+print(conf)
+
+print(conf$overall['Accuracy'])
+print(conf$byClass['Precision'])
+print(conf$byClass['Recall'])
+```
+
+## Try to use 'subset' in naiveBayes function
+```{r}
+mod_c = naiveBayes(cuisine_Chinese ~., data = df_att_all, 
+                   laplace = 1, type = 'class',
+                   na.action = na.pass, subset = train_ind)
+pred_c = predict(mod_c, test[,1:length(test)-1])
+table(pred_c, test$cuisine_Chinese)
+
+conf_actual = factor(test$cuisine_Chinese, levels = c(2,1), labels = c('chinese', 'non-chinese'))
+conf_pred_c = factor(pred_c, levels = c(2,1), labels = c('chinese', 'non-chinese'))
+conf <- confusionMatrix(table(conf_pred_c, conf_actual))
+print(conf)
+
+print(conf$overall['Accuracy'])
+print(conf$byClass['Precision'])
+print(conf$byClass['Recall'])
+
+```
+
